@@ -1,0 +1,25 @@
+launch:
+
+    - arg:
+        name: "input_topic"
+        default: "/camera/rgb/image_color"
+
+    - arg:
+        name: "process_every_n"
+        default: "1"
+
+    - include:
+        file: "$(find-pkg-share ultralytics_ros)/launch/tracker.launch.xml"
+        arg:
+            - name: "input_topic"
+              value: "$(var input_topic)"
+            - name: "process_every_n"
+              value: "$(var process_every_n)"
+
+    - node:
+        pkg: lab_8
+        exec: deliverable_1
+        name: deliverable_1
+        output: screen
+
+
