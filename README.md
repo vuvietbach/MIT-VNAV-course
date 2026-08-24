@@ -29,4 +29,8 @@ The project is primarily developed and tested on **Ubuntu 24.04** with the follo
 | **Lab 8** | **Object Detection**          | ROS integration of the YOLO object detection algorithm.                                               | [MIT Lab 8](https://vnav.mit.edu/labs_2023/lab8/exercises.html) |
 | **Lab 9** | **Visual SLAM Comparison**    | Performance evaluation and comparison of ORB-SLAM3, Kimera, and LDSO.                                 |   [MIT Lab 9](https://vnav.mit.edu/labs/lab9.5/exercises.html)  |
 
+**Drone Racing Result from Lab 4**
+
+![Drone racing through gates from lab 4](assets/lab4_drone_racing.gif)
+
 
